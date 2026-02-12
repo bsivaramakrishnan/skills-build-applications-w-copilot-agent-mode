@@ -25,6 +25,7 @@ router.register(r'activities', views.ActivityViewSet)
 router.register(r'leaderboard', views.LeaderboardViewSet)
 router.register(r'workouts', views.WorkoutViewSet)
 
+# defined urls
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
