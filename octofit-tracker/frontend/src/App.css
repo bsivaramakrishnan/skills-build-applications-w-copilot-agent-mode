@@ -1,0 +1,156 @@
+
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e0f7fa 0%, #fce4ec 100%);
+  min-height: 100vh;
+  color: #263238;
+}
+
+
+.App-logo {
+  height: 48px;
+  margin-right: 16px;
+  float: left;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #1976d2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #43a047;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.App-link:hover {
+  color: #ff7043;
+}
+
+
+/* Table Styling */
+
+.table {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border: 1px solid #fce4ec;
+}
+.table thead {
+  background-color: #43a047;
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f8bbd0;
+}
+.table-bordered th, .table-bordered td {
+  border-color: #43a047;
+}
+
+/* Button Styling */
+
+.btn-primary {
+  background-color: #1976d2;
+  border-color: #1976d2;
+  color: #fff;
+  transition: background 0.2s;
+}
+.btn-primary:hover {
+  background-color: #1565c0;
+}
+.btn-success {
+  background-color: #43a047;
+  border-color: #43a047;
+  color: #fff;
+}
+.btn-success:hover {
+  background-color: #388e3c;
+}
+.btn-secondary {
+  background-color: #ff7043;
+  border-color: #ff7043;
+  color: #fff;
+}
+.btn-secondary:hover {
+  background-color: #d84315;
+}
+.btn {
+  font-weight: bold;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(67,160,71,0.08);
+}
+
+
+/* Heading Styling */
+h1, h2, h3, h4, h5 {
+  color: #ff7043;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+
+/* Navigation Styling */
+.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #f8bbd0 100%);
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.12);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #43a047 !important;
+}
+
+
+/* Card Styling */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(255, 112, 67, 0.12);
+  border: 1px solid #f8bbd0;
+}
+.card-title {
+  color: #1976d2;
+}
+.card-text {
+  color: #263238;
+}
+
+
+/* Modal Styling */
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(67, 160, 71, 0.12);
+}
+.modal-title {
+  color: #ff7043;
+}
+.modal-footer .btn-secondary {
+  background-color: #43a047;
+  border-color: #43a047;
+}
