@@ -7,8 +7,8 @@ function App() {
       {/* Bootstrap Navigation */}
       <nav className="navbar navbar-expand-lg navbar-dark mb-4">
         <a className="navbar-brand d-flex align-items-center" href="#">
-          <img src={process.env.PUBLIC_URL + '/octofitapp-small.png'} alt="Octofit Logo" style={{height: '40px', marginRight: '12px'}} />
-          Octofit Tracker
+          <img src={process.env.PUBLIC_URL + '/octofitapp-small.png'} alt="Octofit Logo" className="App-logo" />
+          <span style={{marginLeft: '8px'}}>Octofit Tracker</span>
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
